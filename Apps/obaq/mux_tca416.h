@@ -1,4 +1,6 @@
-
+// TCA6416A module
+// Copyright 2019 Håkon Nessjøen
+// https://github.com/haakonnessjoen/TCA6416A/
 
 #define TCA_PINMODE_INPUT 0
 #define TCA_PINMODE_OUTPUT 1

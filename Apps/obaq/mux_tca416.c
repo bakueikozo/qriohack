@@ -1,3 +1,8 @@
+// TCA6416A module
+// Copyright 2019 Håkon Nessjøen
+// https://github.com/haakonnessjoen/TCA6416A/
+
+
 #include "bleprofile.h"
 #include "bleapp.h"
 #include "gpiodriver.h"
