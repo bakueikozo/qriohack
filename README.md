@@ -15,3 +15,9 @@ OKなら
 > make obaq-BCM920737TAG_Q32 download UART=COMxx
 
 で書き込み
+
+WICED-SDKは
+https://community.infineon.com/t5/Public-Archive/WICED-Smart-SDK-2-2-3-7z-Archive/td-p/247688
+
+ここにある奴で確認済み
+そのほかのバージョンやIDEにインポートするなら各自
