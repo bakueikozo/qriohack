@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "qrio")(type "KiCad")(uri "${KIPRJMOD}/qrio.kicad_sym")(options "")(descr ""))
+)
