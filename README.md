@@ -30,6 +30,7 @@ https://community.infineon.com/t5/Public-Archive/WICED-Smart-SDK-2-2-3-7z-Archiv
 
 # ピンアサイン
 下面接続のFPC基板に取り付けた場合、この説明の番号と一致します  
+使ったやつはこれ　 https://amzn.to/43Kj0qI  
 |  No. |  Function  |
 | ---- | ---- |
 |  1,2  |  6V  |
