@@ -1,4 +1,3 @@
-"# qriohack" 
 # qriohack
 Qrio Lock 初代(Q-SL1)をハックするための知見と
 内蔵マイコンを書き換えるためのファームを生成するためのソースコードです
@@ -47,3 +46,13 @@ https://community.infineon.com/t5/Public-Archive/WICED-Smart-SDK-2-2-3-7z-Archiv
 1,2および3　は基板上の電源パターン直結のため、電池が入っているときの挙動に注意  
 4,5,6は基板まで届いているが、基板上でジャンパがNCになっているのでそのままでは使用不可   
 9,10と3,11,12の接続で書き込み可能。電源投入時に9をHighにしておくとProgrammingモードに入る   
+
+![書き込み回路](Apps/obaq/programming.png "書き込み回路")
+
+追加のシリアルポートが欲しい場合は7,8を使う  
+
+※参考※  
+https://community.infineon.com/t5/Resource-Library/Programming-the-TAG2-TAG3-Board-using-command-line-tools/ta-p/246905  
+書き込み中に電源を落としてしまった場合正常に起動しなくなる。その場合downloadではなくrecoveryモードに入る必要がある。  
+電源投入orRESETの際にeepromのSDAをVCCに吊るとソフトが読み込めない→リカバリモードになる  
+ここでrecoveryで書き込む  
